@@ -1,20 +1,22 @@
-.nav {
+.was {
+	
 	background-color: gray;
-	overflow: hidden;
+	overflow: auto;
 }
-.nav a {
+.was a {
 	float: left;
 	color: white;
 	text-align: center;
 	padding: 20px;
 	text-decoration: none;
+	transition: all 0.5s ease;
 	font-size: 20px;	
 }
-.nav a:hover {
+.was a:hover {
 	background-color:#A198C6;
 	color: black;
 }
-.nav a.active {
+.was a.active {
 	background-color:#653239;
 	color: white;
 }
@@ -24,6 +26,9 @@ h1 {
 	font-size:60px;
 	font-style:arial;
 }
-body {
-	background-color:black;
+footer{
+	background-color:gray;
+	color:black;
+	font-size:5px;
+
 }
